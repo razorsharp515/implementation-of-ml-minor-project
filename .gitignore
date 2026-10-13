@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/raw datasets can be large or license-restricted.
+data/raw/
+
+# Do not publish copyrighted source papers.
+docs/source_paper.pdf
+
+# Keep generated report examples lightweight by default.
+reports/*.png
+reports/predictions.csv
+
+# Trained model artifacts can be regenerated.
+models/*.joblib
+
+.env
+.DS_Store
+Thumbs.db
